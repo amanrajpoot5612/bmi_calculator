@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Montserrat";
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      0deg,
+      rgb(128, 0, 0) 0%,
+      rgb(29, 29, 29) 100%
+    );
+    min-height: 100vh;
+  }
+  .bmi {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #00000095;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#fff
+  }
+  .text {
+    text-align: center;
+    color: wheat;
+    font-size: 24px;
+  }
+  #weight,
+  #height {
+    color: #8f0000;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 200px;
+    height: 35px;
+  }
+  #result {
+    color: #650000;
+  }
+  #btn {
+    font-family: inherit;
+    margin-top: 10px;
+    border: none;
+    color: #e2e1e1;
+    background: rgb(66, 0, 0);
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  table {
+    width: 650px;
+    border-collapse: collapse;
+    margin: 600px auto;
+    border-radius: 10px;
+  }
+  
+  tr {
+    background: rgba(255, 255, 255, 0.182);
+    border-radius: 10px;
+  }
+  
+  th {
+    background: #300a0ac2;
+    color: #dfd7d7;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  td,
+  th {
+    padding: 10px;
+    border: 0.5px solid #2d0101;
+    text-align: center;
+    font-size: 22px;
+    
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bmi">
+        <h1>Body Mass Index Calculator</h1>
+        <p class="text"><b>Height ( cm )</b></p><input type="text" id="height">
+        <p class="text"><b>Weight ( Kg )</b></p><input type="text" id="weight">
+        <p id="result"></p><button id="btn">Calculate</button>
+    </div>
+    <div class="chart">
+      <table>
+        <thead>
+          <tr>
+            <th>BMI</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-column="bmi">less than 18.5</td>
+            <td data-column="category">Underweight</td>
+          </tr>
+          <tr>
+            <td data-column="bmi">between 18.5 and 24.9</td>
+            <td data-column="category">Ideal</td>
+          </tr>
+          <tr>
+            <td data-column="bmi">between 25 and 29.9</td>
+            <td data-column="category">Overweight</td>
+          </tr>
+          <tr>
+            <td data-column="bmi">over 30 </td>
+            <td data-column="category">Obesity</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+    <footer class="footer">
+      <p class="footer__title">Supritha Ravishankar</p>
+      <div class="footer__social">
+          <a href="https://de-de.facebook.com/supritha.ravishankar" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+          <a href="https://github.com/supzi-del" class="footer__icon"><i class='bx bxl-github' ></i></a>
+          <a href="https://twitter.com/SuprithaRavish1" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+          <a href="https://www.linkedin.com/in/supritha-ravishankar-560008216/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+     </footer>
+</body>
+</html>
