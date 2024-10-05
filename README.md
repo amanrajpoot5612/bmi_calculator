@@ -3,6 +3,6 @@
 
 # Demo Images
     Calculator:
-        - <img src="/assets/calculator.png">
+<img src="/assets/calculator.png">
     Chart:
-        - <img src="/assets//chart.png">
+<img src="/assets//chart.png">
